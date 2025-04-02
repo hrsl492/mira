@@ -1,3 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151213194-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151213194-1');
+  </script>
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="dist/css/plugins.min.css">
+  <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick.css">
+  <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+  <link rel="stylesheet" href="dist/css/main.min.css">
+  <title>Mira</title>
+</head>
+<body>
+<div id="top"></div>
+<div class="container-fluid" id="main_navbar">
+    <div class="row">
+      <div class="container ">
+        <nav class="navbar fixed-top navbar-expand-md col-12">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="./">
+            <img src="public/logo.png">
+          </a>
+
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link smoothscroll" href="#top">INICIO</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link smoothscroll" href="#edificio">ESPACIOS QUE IMPORTAN</a>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link smoothscroll" href="#apartamentos">APARTAMENTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smoothscroll" href="#contacto">CONT&Aacute;CTANOS</a>
+              </li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right" id="social_icons">
+              <li>
+                <a class="nav-link" href="https://www.facebook.com/miraguatemala/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.instagram.com/mira_apartamentos/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://api.whatsapp.com/send?phone=+50253449622">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>-->
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid">
+  <div class="row">
+
+  <div id="main_carousel" class="carousel slide" data-ride="carousel">
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                  <img class="img-fluid" src="public/sliders/main/01.jpg">
+                  <a href="#apartamentos" class="btn actionbtn" style="background:#666;">Ver Apartamentos</a>
+                </div>
+                              <div class="carousel-item">
+                  <img class="img-fluid" src="public/sliders/main/02.jpg">
+                                      <a href="#contacto" class="btn actionbtn">Haz tu cita</a>
+                                                                      </div>
+                              <div class="carousel-item">
+                  <img class="img-fluid" src="public/sliders/main/03.jpg">
+                                                        <a href="#edificio" class="btn actionbtn">Mas Informaci&oacute;n</a>
+                                                    </div>
+                              <div class="carousel-item">
+                  <img class="img-fluid" src="public/sliders/main/04.jpg">
+                                                                          <a href="#edificio" class="btn actionbtn">Mas Informaci&oacute;n</a>
+                                  </div>
+                  </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#main_carousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#main_carousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+</div>
+</div>
+<div class="container-fluid" id="mapaedificio">
+  <div class="row">
+    <div class="col-12">
+      <div class="closemap">
+        X
+      </div>
+      <img src="public/images/mapaedificio.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="container" id="edificio_puntos">
+  <div class="row">
+    <div class="col-md-8" id="edificio">
+      <div class="row">
+        <div class="dot mobil link" data-info="mapadot" id="mapadot">
+          <div class="inner"><i class="fas fa-map-marker-alt"></i></div>
+          <span class="text">VER MAPA DE UBICACION</span>
+        </div>
+        <div class="dot mobil link" data-info="divertirse" id="divertirse">
+          <div class="inner"></div>
+          <span class="text">DIVERTIRSE S&Iacute; IMPORTA</span>
+        </div>
+        <div class="dot mobil link" data-info="hogar" id="hogar">
+          <div class="inner"></div>
+          <span class="text">CONSTRUIR UN HOGAR SI IMPORTA</span>
+        </div>
+        <div class="dot mobil link" data-info="salud" id="salud">
+          <div class="inner"></div>
+          <span class="text">LA SALUD SI IMPORTA</span>
+        </div>
+        <div class="dot mobil link" data-info="convivir" id="convivir">
+          <div class="inner"></div>
+          <span class="text">CONVIVIR SI IMPORTA</span>
+        </div>
+        <!--<img src="public/images/edificioprovi.png">-->
+        <img src="public/images/EDIFICIO_CORTADO.png">
+        <!--<a href="" class="link" id="mapadot"><img src="public/images/edificioprovi/edificioprovi_01.png"></a>
+        <img class="link" src="public/images/edificioprovi/edificioprovi_02.png" id="divertirse">
+        <img src="public/images/edificioprovi/edificioprovi_03.png">
+        <img class="link" src="public/images/edificioprovi/edificioprovi_04.png" id="hogar">
+        <img src="public/images/edificioprovi/edificioprovi_05.png">
+        <img class="link" src="public/images/edificioprovi/edificioprovi_06.png" id="salud">
+        <img src="public/images/edificioprovi/edificioprovi_07.png">
+        <img class="link" src="public/images/edificioprovi/edificioprovi_08.png" id="convivir">
+        <img src="public/images/edificioprovi/edificioprovi_09.png">-->
+      </div>
+    </div>
+    <div class="col-md-4" id="texto">
+      <div class="row">
+        <div class="info_popup">
+          <div class="close_info_popup">
+            <p>x</p>
+          </div>
+          <h1 class="titulo"></h1>
+          <hr>
+          <p class="text"></p>
+          <img class="image" src="">
+          <hr>
+        </div>
+        <div class="col-md-12">
+          <img src="public/images/espaciosqueimportan.png" id="espaciosqueimportan">
+        </div>
+        <div class="col-md-12">
+          <img src="public/logo.png" id="logo">
+          <hr>
+        </div>
+        <p class="col-md-12" id="p_1">
+          Mira quiere recordarte las cosas importantes de
+          la vida. Compartir, jugar, amar, hacer las cosas
+          que siempre quisimos hacer. Por que la vida solo
+          es una, pero los detalles para hacerla increible,
+          son muchos.
+        </p>
+        <p class="col-md-12" id="p_2">
+          Life matters <br>
+          Mira, apartamentos en zona 10, <br>
+          donde la vida si importa.
+        </p>
+        <!--<div class="col-12">
+          <a href="public/brochure.pdf" download class="btn btn-secondary float-right">Descargar Brochure</a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container-fluid" id="apartamentos">
   <div class="row">
     <div class="col-12 text-center">
@@ -53,15 +252,19 @@
                 <option disabled selected>
                   Selecciona un horario
                 </option>
-                <?php
-                  for ($i=8; $i < 19; $i++){
-                    ?>
-                      <option value="<?= $i ?>"><?= $i ?> Hrs</option>
-                    <?php
-                  }
-                ?>
-              </select>
-              <input type="date" value="<?php echo date('Y-m-d'); ?>" name="fecha" placeholder="Selecciona una fecha" class="form-control">
+                                      <option value="8">8 Hrs</option>
+                                          <option value="9">9 Hrs</option>
+                                          <option value="10">10 Hrs</option>
+                                          <option value="11">11 Hrs</option>
+                                          <option value="12">12 Hrs</option>
+                                          <option value="13">13 Hrs</option>
+                                          <option value="14">14 Hrs</option>
+                                          <option value="15">15 Hrs</option>
+                                          <option value="16">16 Hrs</option>
+                                          <option value="17">17 Hrs</option>
+                                          <option value="18">18 Hrs</option>
+                                  </select>
+              <input type="date" value="2020-12-08" name="fecha" placeholder="Selecciona una fecha" class="form-control">
             </div>
             <div class="row">
               <div class="col-12">
@@ -252,33 +455,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                  - 7 ventanas
-                </br>
-                  - 4 fachadas
-                </br>
-                  - Espacios flexibles para adaptarse a diferentes etapas de vida. Tener 2 habitaciones y crecer a 3. O empezar con 3, y abrir el espacio social al reducirse a 2 habitaciones.
-                </br>
-                  - Cocina con su propia venta y jardinera para tener un amplio huerto
-                </br>
-                  - Baño de visita
-                </br>
-                  - Promedio tamaño de ventana 2 x 2 metros
-                </br>
-                  - Iluminación completa en todo el apartamento
-                </br>
-                  - Apartamento de esquina
-                </br>
-                  - Área social integrada al balcón
-                </br>
-                  - El apartamento tiene tanto la vista de amanecer hacia la reserva natural como del atardecer con los volcanes.
-                </br>
-                  <?php
-                }else{
-                  ?>
-                    <ul>
+                                   <ul>
                       <li>
                         7 ventanas
                       </li>
@@ -310,10 +487,7 @@
                         El apartamento tiene tanto la vista de amanecer hacia la reserva natural como del atardecer con los volcanes.
                       </li>
                     </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/01.png" class="title">
@@ -375,18 +549,8 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
 
-                  <?php
-                }else{
-                  ?>
-
-                  <?php
-                }
-               ?>
-               <ul>
+                                 <ul>
                  <li>
                    6 VENTANAS
                  </li>
@@ -477,27 +641,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                    - 7 VENTANAS
-                    <br>
-                    - 3 fachadas
-                    <br>
-                    - Promedio tamaño de ventana 2 x 2 metros
-                    <br>
-                    - Iluminación completa en todo el apartamento
-                    <br>
-                    - Apartamento de esquina
-                    <br>
-                    - Cuartos con doble ventana y jardineras
-                    <br>
-                    - Área social integrada al balcón
-                    <br>
-                  <?php
-                }else{
-                  ?>
-                  <ul>
+                                 <ul>
                     <li>
                       7 VENTANAS
                     </li>
@@ -520,10 +664,7 @@
                       Área social integrada al balcón
                     </li>
                   </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/03.png" class="title">
@@ -585,29 +726,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                    - 8 VENTANAS
-                    <br>
-                    - 3 fachadas
-                    <br>
-                    - Promedio tamaño de ventana 2 x 2 metros
-                    <br>
-                    - Iluminación completa en todo el apartamento
-                    <br>
-                    - Apartamento de esquina
-                    <br>
-                    - Cuartos con doble ventana y jardineras
-                    <br>
-                    - Área social integrada al balcón
-                    <br>
-                    - Espacios flexibles para adaptarse a diferentes etapas de vida. Empezar con 3 habitaciones y en un futuro dejar 2, teniendo un área social con un ventanal espectacular.
-                    <br>
-                  <?php
-                }else{
-                  ?>
-                  <ul>
+                                 <ul>
                     <li>
                       8 VENTANAS
                     </li>
@@ -633,10 +752,7 @@
                       Espacios flexibles para adaptarse a diferentes etapas de vida. Empezar con 3 habitaciones y en un futuro dejar 2, teniendo un área social con un ventanal espectacular.
                     </li>
                   </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/04.png" class="title">
@@ -698,29 +814,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                    - 6 VENTANAS
-                    <br>
-                    - 2 fachadas
-                    <br>
-                    - Promedio tamaño de ventana 2 x 2 metros
-                    <br>
-                    - Iluminación completa en todo el apartamento
-                    <br>
-                    - Apartamento de esquina
-                    <br>
-                    - Ideal para adaptarse a diferentes etapas de vida. Dos cuartos exactos para roomates, parejas, familias o tener la flexibilidad de convertirlo en un master amplio.
-                    <br>
-                    - Área social completo de una ventana de piso a techo integrado con un balcón.
-                    <br>
-                    - Cocina estilo italiana de aprox. 4metros de largo.
-                    <br>
-                  <?php
-                }else{
-                  ?>
-                  <ul>
+                                 <ul>
                     <li>
                       6 VENTANAS
                     </li>
@@ -746,10 +840,7 @@
                       Cocina estilo italiana de aprox. 4metros de largo.
                     </li>
                   </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/05.png" class="title">
@@ -811,29 +902,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                    - 6 ventanas
-                    <br>
-                    - 2 fachadas
-                    <br>
-                    - Walking Closet con iluminación natural de piso a techo
-                    <br>
-                    - Baño de visitas
-                    <br>
-                    - Cocina estilo italiana aprox. 4 metros de largo
-                    <br>
-                    - Promedio tamaño de ventana 2 x 2 metros
-                    <br>
-                    - Iluminación completa en todo el apartamento
-                    <br>
-                    - Apartamento de esquina
-                    <br>
-                  <?php
-                }else{
-                  ?>
-                  <ul>
+                                 <ul>
                     <li>
                       6 ventanas
                     </li>
@@ -859,10 +928,7 @@
                       Apartamento de esquina
                     </li>
                   </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/06.png" class="title">
@@ -920,23 +986,7 @@
              </div>
              <h1 class="titulo">INFO GENERAL</h1>
              <div class="text">
-               <?php
-                if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPad')){
-                  ?>
-                    - Apartamento urbano, con una terraza amplia para tener una salita exterior. La fachada completa es un ventanal para tener una iluminación natural en todos los espacios.
-                    <br>
-                    - Walking Closet de 2.50 x 2.5
-                    <br>
-                    - Baño de visita
-                    <br>
-                    - Cocina estilo italiana aprox 4 metros de largo
-                    <br>
-                    - Iluminación completa en todo el apartamento
-                    <br>
-                  <?php
-                }else{
-                  ?>
-                  <ul>
+                                 <ul>
                     <li>
                       Apartamento urbano, con una terraza amplia para tener una salita exterior. La fachada completa es un ventanal para tener una iluminación natural en todos los espacios.
                     </li>
@@ -953,10 +1003,7 @@
                       Iluminación completa en todo el apartamento
                     </li>
                   </ul>
-                  <?php
-                }
-               ?>
-             </div>
+                               </div>
            </div>
            <div class="col-12">
              <img src="public/images/apts/metrajes/07.png" class="title">
@@ -1018,3 +1065,297 @@
     que necesitas.
   </p>
 </div>
+<div class="container" id="contacto">
+  <!--<div class="row">
+    <div class="col-12 text-center">
+      <h1>
+        CONT&Aacute;CTANOS
+      </h1>
+    </div>
+  </div>-->
+  <form action="" class="row">
+    <div class="col-md-6">
+      <input class="form-control" placeholder="*Nombre y Apellido" type="text" name="name" required>
+      <input class="form-control" placeholder="*Tel&eacute;fono" type="tel" name="phone" required>
+      <input type="email" class="form-control" placeholder="*Email" name="email" required>
+      <select class="form-control" name="forma_contacto">
+        <option selected disabled>Forma de Contacto</option>
+        <option value="sanmartin">
+          Elige tu San Martin M&aacute;s cercano
+        </option>
+        <option value="showroom">
+          Visita el Showroom
+        </option>
+        <option value="videollamada">
+          Videollamada
+        </option>
+      </select>
+      <select class="form-control" name="cont_sanmartin">
+        <option disabled selected>
+          Elige una zona
+        </option>
+        <option value="1">Zona 1</option>
+        <option value="5">Zona 5</option>
+        <option value="9">Zona 9</option>
+        <option value="10">Zona 10</option>
+        <option value="11">Zona 11</option>
+        <option value="12">Zona 12</option>
+        <option value="13">Zona 13</option>
+        <option value="14">Zona 14</option>
+        <option value="15">Zona 15</option>
+        <option value="16">Zona 16</option>
+      </select>
+      <select class="form-control" name="tipo_apartamento">
+        <option selected disabled>Tipo de Apartamento</option>
+        <option value="Apartamento A 118mts">Apartamento A 118mts</option>
+        <option value="Apartamento B 118mts">Apartamento B 118mts</option>
+        <option value="Apartamento C2 98mts">Apartamento C2 98mts</option>
+        <option value="Apartamento C3 98mts">Apartamento C3 98mts</option>
+        <option value="Apartamento D 80mts">Apartamento D 80mts</option>
+        <option value="Apartamento E 79mts">Apartamento E 79mts</option>
+        <option value="Apartamento G 80mts">Apartamento G 80mts</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <textarea name="message" placeholder="*Mensaje"></textarea>
+      <div class="row">
+        <div class="col-10">
+          <small>* Todos los campos son solicitados para enviar el mensaje</small>
+        </div>
+        <div class="col-12 col-md-2">
+          <button class="btn float-right">&nbsp;&nbsp;ENVIAR&nbsp;&nbsp;</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="row" id="contact_icons">
+    <div class="col-md-3 text-center">
+      <i class="redicon fa fa-home"></i>
+      <br>
+      <span>
+        DIRECCI&Oacute;N
+      </span>
+      <br>
+      <p>
+        Sala de ventas: <br>
+        7ma av. 5-45 zona 4. Xpo1 <br>
+        Ciudad de Guatemala, Guatemala
+      </p>
+    </div>
+    <div class="col-md-3 text-center">
+      <a href="tel:+50223159898">
+        <i class="redicon fa fa-mobile"></i>
+        <br>
+        <span>
+          TEL&Eacute;FONO
+        </span>
+        <br>
+        <p>
+          +(502) 2315-9898
+        </p>
+      </a>
+    </div>
+    <div class="col-md-3 text-center">
+      <a href="https://api.whatsapp.com/send?phone=+50253449622">
+        <i class="redicon fab fa-whatsapp"></i>
+        <br>
+        <span>
+          WHATSAPP
+        </span>
+        <br>
+        <p>
+          +(502) 5344-9622
+        </p>
+      </a>
+    </div>
+    <div class="col-md-3 text-center">
+      <a href="mailto:hola@mira.gt">
+        <i class="redicon fa fa-envelope"></i>
+        <br>
+        <span>
+          E-MAIL
+        </span>
+        <br>
+        <p>
+          hola@mira.gt
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container" id="gallery">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>
+        GALER&Iacute;A
+      </h1>
+      <p>Conoce las cosas que s&iacute; importan en Mira.</p>
+    </div>
+  </div>
+  <div class="row">
+    <ul id="filter-list" class="clearfix controls">
+      <button class="filter waves-effect waves-light" data-filter="all">Todo</button>
+      <span>/</span>
+      <button class="filter waves-effect waves-light" data-filter=".c_apartamento">Apartamentos</button>
+      <span>/</span>
+      <button class="filter waves-effect waves-light" data-filter=".c_edificio">Edificio</button>
+      <span>/</span>
+      <button class="filter waves-effect waves-light" data-filter=".c_espacio">Espacios que importan</button>
+    </ul>
+  </div>
+  <div class="row items">
+                  <div class="col-6 col-md-4 text-center mix c_edificio" data-order="1">
+                <img class="openpopup" src="public/images/gallery/01.edificio.jpg" data-item="1">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_espacio" data-order="2">
+                <img class="openpopup" src="public/images/gallery/02.espacio.png" data-item="2">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_espacio" data-order="3">
+                <img class="openpopup" src="public/images/gallery/03.espacio.png" data-item="3">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_espacio" data-order="4">
+                <img class="openpopup" src="public/images/gallery/04.espacio.jpg" data-item="4">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_apartamento" data-order="5">
+                <img class="openpopup" src="public/images/gallery/06.apartamento.jpg" data-item="5">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_edificio" data-order="6">
+                <img class="openpopup" src="public/images/gallery/07.edificio.jpg" data-item="6">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_edificio" data-order="7">
+                <img class="openpopup" src="public/images/gallery/08.edificio.jpg" data-item="7">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_apartamento" data-order="8">
+                <img class="openpopup" src="public/images/gallery/09.apartamento.jpg" data-item="8">
+              </div>
+                          <div class="col-6 col-md-4 text-center mix c_apartamento" data-order="9">
+                <img class="openpopup" src="public/images/gallery/10.apartamento.jpg" data-item="9">
+              </div>
+              </div>
+</div>
+<div class="gallpopup">
+  <button class='gallclose'>
+    X
+  </button>
+  <button class='gallprev'>
+    <
+  </button>
+  <img src=''>
+  <input type="number" hidden value="" id="currentopengall">
+  <button class='gallnext'>
+    >
+  </button>
+</div>
+<div class="container-fluid" id="mapa">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>
+        VISITA NUESTRO SHOWROOM
+      </h1>
+      <p>
+        Ven a la sala de ventas de Mira en el edificio Xpo1.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.7870000303824!2d-90.50840235670509!3d14.611206269097169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3b55686f607%3A0xf9225843a49850d1!2sMIRA!5e0!3m2!1sen!2sgt!4v1514420118547" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+</div>
+<div class="container-fluid" id="newsletter">
+  <div class="row">
+    <div class="container">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-3" id="bloque1">
+            <div id="texto">
+              RECIBE NOTICIAS &nbsp; <br> DE MIRA
+            </div>
+            <div id="textoresponsive">
+              RECIBE NOTICIAS DE MIRA
+            </div>
+          </div>
+          <div class="col-12 col-md-3" id="bloque2">
+            Enterate de las cosas que si importan <br>Avances de la construccion, noticias <br> y m&aacute;s.
+          </div>
+          <div class="col-md-5" id="bloque3">
+            <form action="">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="ESCRIBE TU E-MAIL" aria-describedby="basic-addon2" id="emailinput">
+                <button class="btn input-group-addon" id="basic-addon2">ENVIAR</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="desarrolla">
+  <div class="row">
+    <div class="col-md-6" id="L">
+      <div class="row">
+        <div class="col-6 text-right" id="desarrolla">
+          DESARROLLA
+        </div>
+        <div class="col-6 text-center">
+          <img src="public/images/urboplogo.png">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6" id="R">
+      <div class="row">
+        <div class="col-6 text-left">
+          <p>
+            PROYECTOS QUE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            HACEN CIUDAD
+          </p>
+        </div>
+        <div class="col-4 text-center">
+          <a href="http://urbop.gt/" class="btn btn-secondary">CONOCE URBOP</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-4 text-center">
+          <a href="public/brochure.pdf" download class="btn btn-secondary">Descargar Brochure</a>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          TODOS LOS DERECHOS RESERVADOS APARTAMENTOS MIRA 2019
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-1"></div>
+            <div class="col-2">
+              <a class="nav-link" href="https://www.facebook.com/miraguatemala/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="nav-link" href="https://www.instagram.com/mira_apartamentos/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a class="nav-link" href="https://api.whatsapp.com/send?phone=+50253449622">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--TODOS LOS DERECHOS RESERVADOS APARTAMENTOS MIRA 2019-->
+    <a href="#top" class="float-right">
+      <i class="backtop far fa-arrow-alt-circle-up"></i>
+    </a>
+  </footer>
+  <script src="dist/js/plugins.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
+  <script src="dist/js/main.min.js"></script>
+  </body>
+</html>
